@@ -21,6 +21,30 @@ Access the command through:
 - VS Code 1.60.0 or higher
 - [Ruff](https://docs.astral.sh/ruff/installation/) must be installed and available in your path
 
+## Installation
+
+### VS Code Marketplace
+
+Coming soon.
+
+### Manual Installation (VSIX)
+
+1. Download the `.vsix` file from the [latest release](https://github.com/willisrocks/ruff-formatter/releases/latest)
+2. Open VS Code
+3. Go to the Extensions view (Ctrl+Shift+X or Cmd+Shift+X on macOS)
+4. Click on the "..." menu (More Actions) at the top of the Extensions view
+5. Select "Install from VSIX..."
+6. Navigate to and select the downloaded `.vsix` file
+7. Restart VS Code when prompted
+
+### Building from Source
+
+1. Clone the repository: `git clone https://github.com/willisrocks/ruff-formatter.git`
+2. Install dependencies: `npm install`
+3. Build the extension: `npm run compile`
+4. Package it: `vsce package`
+5. Follow the manual installation steps above with the generated `.vsix` file
+
 ## Usage
 
 1. Open a Python file in VS Code
